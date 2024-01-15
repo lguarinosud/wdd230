@@ -1,0 +1,43 @@
+@media screen and (min-width: 800px) {
+    nav {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    nav a {
+        margin: 0 8px;
+
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: auto;
+    }
+
+    main h1 {
+        grid-column: 1 / -1;
+        height: 50px;
+    }
+
+    .card {
+
+        margin: 10px;
+        border: 1px #ddd;
+        padding: 15px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .card h2 {
+        height: 60px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    footer {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+}

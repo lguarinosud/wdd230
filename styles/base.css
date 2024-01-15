@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(33, 82, 167);
+    ;
+
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header span {
+    text-align: center;
+    font-size: 38px;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #8B4513;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+
+nav a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+main h1 {
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.card h2 {
+    background-color: rgb(33, 82, 167);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.card li {
+    margin-right: 10px;
+}
+
+
+.card p {
+    margin: 5px;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f0f0f0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
