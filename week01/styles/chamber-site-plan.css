@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Main body font */
+    color: #333;
+    /* Primary text color */
+    background-color: #fff;
+    /* Background color */
+}
+
+h1,
+h2 {
+    color: #4b3f72;
+    /* Primary heading color */
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+.purpose,
+.scenarios {
+    margin-bottom: 20px;
+}
+
+/* Additional styling can be added as needed */
