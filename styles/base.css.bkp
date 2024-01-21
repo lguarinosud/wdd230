@@ -25,30 +25,17 @@ header span {
     padding: 10px;
 }
 
-.navigation a:hover {
+nav a:hover {
     background-color: #8B4513;
 }
 
-/* #navi {
-    display: none;
-} */
-
-.navigation {
-    display: none;
+nav {
+    display: flex;
     flex-direction: column;
     background-color: #333;
 }
 
-/* Add styles for .navi-open */
-.navigation.open {
-    display: flex;
-}
-
-.navigation a:hover {
-    background-color: #8B4513;
-}
-
-.navigation a {
+nav a {
     flex: 1;
     display: flex;
     align-items: center;
@@ -59,36 +46,6 @@ header span {
     margin-bottom: 8px;
 }
 
-/* Dark Mode  */
-
-#mode {
-
-    font-size: 3rem;
-    cursor: pointer;
-    font-size: 2rem;
-    margin: 9px;
-}
-
-/* when open  */
-
-#menu {
-    font-size: 1.5rem;
-    border: 1px solid rgba(0, 0, 0, .3);
-    padding: 3px 7px 6px;
-    background-color: #eee;
-    color: #000;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-#menu::before {
-    content: "☰";
-}
-
-#menu.open::before {
-    content: "❎";
-}
 
 main {
     padding: 20px;

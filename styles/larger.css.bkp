@@ -1,16 +1,12 @@
 @media screen and (min-width: 800px) {
-    .navigation {
+    nav {
         flex-direction: row;
         height: 50px;
     }
 
-    .navigation a {
+    nav a {
         margin: 0 8px;
 
-    }
-
-    #navi {
-        display: flex;
     }
 
     main {
@@ -42,11 +38,6 @@
 
     footer {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    }
-
-    #menu {
-        display: none;
-        /* hide hamburger button */
     }
 
 }
