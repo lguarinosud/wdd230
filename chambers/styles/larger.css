@@ -1,0 +1,172 @@
+@media screen and (min-width: 800px) {
+
+
+    .navigation {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    .navigation a {
+        margin: 0 8px;
+
+    }
+
+    #navi {
+        display: flex;
+    }
+
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
+
+    /* Container holding the image and the button */
+    .image-container {
+        position: relative;
+        /* Set the width and height as needed */
+        width: 100%;
+
+    }
+
+    .image-container img {
+
+        width: 100%;
+        height: auto;
+
+        /* Removes bottom margin/space under the image */
+    }
+
+    /* Positioning the button over the image */
+    .image-container .cta {
+        position: absolute;
+        top: 20px;
+        /* Adjust as needed for vertical positioning */
+        left: 20px;
+        /* Adjust as needed for horizontal positioning */
+    }
+
+    /* Container for Events and Weather */
+    .events-weather-container {
+
+        grid-template-columns: 1fr 1fr;
+        /* Two equal columns */
+        gap: 20px;
+        /* Space between columns */
+    }
+
+    /* Styles for Events Card */
+    /* Common Styles for Both Card and Weather */
+    .card,
+    .weather {
+        grid-column: span all;
+    }
+
+    /* Container for Events and Weather */
+
+
+    /* You might want to adjust padding, margin, etc., for inner elements like h2, h3, p in the cards */
+    .card h2,
+    .card h3,
+    .card p,
+    .weather h2,
+    .weather p {
+        margin: 10px 0;
+        /* Example margin, adjust as needed */
+    }
+
+
+
+    /* Styles for Each Spotlight Card */
+    .spotlights {
+        background-color: #FFFFFF;
+        /* Light background for the card */
+        color: #333333;
+        /* Darker text color for readability */
+        border: 1px solid #DDDDDD;
+        /* Subtle border */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* Soft shadow for depth */
+        padding: 20px;
+        /* Spacing inside the card */
+        border-radius: 10px;
+        /* Rounded corners */
+        margin-bottom: 20px;
+        /* Bottom margin for spacing between rows */
+    }
+
+    .spotlights h2 {
+        margin-top: 0;
+        /* Aligns the title at the top of the card */
+    }
+
+    /* Additional styles for internal elements as needed */
+    .spotlights p {
+        margin: 10px 0;
+        /* Example margin, adjust as needed */
+    }
+
+    /* Footer Styling */
+    footer {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(2, auto);
+        background-color: #333333;
+        /* Dark background for the footer */
+        color: #FFFFFF;
+        /* Light text color for contrast */
+        padding: 20px;
+        /* Padding around the content */
+        font-size: 0.9em;
+        /* Slightly smaller font size for footer content */
+    }
+
+    footer div {
+        margin-bottom: 15px;
+        /* Spacing between each section in the footer */
+    }
+
+    footer div div {
+        margin-bottom: 10px;
+        /* Spacing within each column */
+    }
+
+    footer a {
+        color: #FFFFFF;
+        /* Ensuring links are also white */
+        text-decoration: underline;
+        /* Underline for links */
+    }
+
+    footer a:hover {
+        text-decoration: none;
+        /* Removing underline on hover for effect */
+    }
+
+    .last-footer {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+
+    }
+
+    .company-segment {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        text-align: center;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        /* This ensures the div takes up the full height of the viewport */
+    }
+
+
+}
+
+
+/* Remaining sections... */
+/* You can continue with the previous CSS for the main content, sections, and footer. */

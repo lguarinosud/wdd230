@@ -1,0 +1,236 @@
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #808080;
+    /* Primary grey color */
+}
+
+header .company-segment {
+    display: flex;
+    align-items: center;
+}
+
+header .company-segment img {
+    /* Adjust width as necessary */
+    width: 100px;
+    margin-right: 10px;
+    /* Space between logo and company name */
+}
+
+header .company-name {
+    color: #FFFFFF;
+    font-family: 'Georgia', serif;
+    /* Heading font */
+    /* Additional styling for the company name */
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    /* Aligns nav items to the right */
+    background-color: #FF0000;
+    /* Red background color */
+    padding: 10px 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    /* White text color for contrast */
+    text-decoration: none;
+    margin-left: 20px;
+    /* Spacing between each nav item */
+}
+
+nav a:hover {
+    background-color: #CC0000;
+    /* Slightly darker red for hover effect */
+    transition: background-color 0.3s;
+}
+
+
+/* Additional global styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    /* Text color */
+    background-color: #808080;
+    /* Primary color */
+}
+
+/* Call to Action Button Styling */
+.cta {
+    background-color: #FF0000;
+    /* Red background color */
+    color: #FFFFFF;
+    /* White text for contrast */
+    padding: 15px 30px;
+    /* Adjust padding as needed */
+    border: none;
+    /* No border for a cleaner look */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    font-weight: bold;
+    /* Make the text bold */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    text-transform: uppercase;
+    /* Optional: makes text uppercase */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.cta:hover {
+    background-color: #CC0000;
+    /* Darker red on hover */
+    transform: scale(1.05);
+    /* Slightly increase size on hover */
+}
+
+/* Container holding the image and the button */
+.image-container {
+    position: relative;
+    /* Set the width and height as needed */
+    width: 100%;
+
+}
+
+.image-container img {
+
+    display: block;
+    /* Removes bottom margin/space under the image */
+}
+
+/* Positioning the button over the image */
+.image-container .cta {
+    position: absolute;
+    top: 20px;
+    /* Adjust as needed for vertical positioning */
+    left: 20px;
+    /* Adjust as needed for horizontal positioning */
+}
+
+/* Container for Events and Weather */
+.events-weather-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal columns */
+    gap: 20px;
+    /* Space between columns */
+}
+
+/* Styles for Events Card */
+/* Common Styles for Both Card and Weather */
+.card,
+.weather {
+    background-color: #FFFFFF;
+    /* Light background for the card */
+    color: #333333;
+    /* Darker text color for readability */
+    border: 1px solid #DDDDDD;
+    /* Subtle border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    padding: 20px;
+    /* Spacing inside the card */
+    border-radius: 10px;
+    /* Rounded corners */
+    margin: 10px 0;
+    /* Margin for spacing around each card */
+}
+
+/* Container for Events and Weather */
+
+
+/* You might want to adjust padding, margin, etc., for inner elements like h2, h3, p in the cards */
+.card h2,
+.card h3,
+.card p,
+.weather h2,
+.weather p {
+    margin: 10px 0;
+    /* Example margin, adjust as needed */
+}
+
+/* Container for Spotlights */
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three equal columns */
+    gap: 20px;
+    /* Space between columns */
+    padding: 20px;
+    /* Padding around the entire section */
+}
+
+/* Styles for Each Spotlight Card */
+.spotlights {
+    background-color: #FFFFFF;
+    /* Light background for the card */
+    color: #333333;
+    /* Darker text color for readability */
+    border: 1px solid #DDDDDD;
+    /* Subtle border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    padding: 20px;
+    /* Spacing inside the card */
+    border-radius: 10px;
+    /* Rounded corners */
+    margin-bottom: 20px;
+    /* Bottom margin for spacing between rows */
+}
+
+.spotlights h2 {
+    margin-top: 0;
+    /* Aligns the title at the top of the card */
+}
+
+/* Additional styles for internal elements as needed */
+.spotlights p {
+    margin: 10px 0;
+    /* Example margin, adjust as needed */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333;
+    /* Dark background for the footer */
+    color: #FFFFFF;
+    /* Light text color for contrast */
+    padding: 20px;
+    /* Padding around the content */
+    font-size: 0.9em;
+    /* Slightly smaller font size for footer content */
+}
+
+footer div {
+    margin-bottom: 15px;
+    /* Spacing between each section in the footer */
+}
+
+footer div div {
+    margin-bottom: 10px;
+    /* Spacing within each column */
+}
+
+footer a {
+    color: #FFFFFF;
+    /* Ensuring links are also white */
+    text-decoration: underline;
+    /* Underline for links */
+}
+
+footer a:hover {
+    text-decoration: none;
+    /* Removing underline on hover for effect */
+}
+
+
+
+
+/* Remaining sections... */
+/* You can continue with the previous CSS for the main content, sections, and footer. */
