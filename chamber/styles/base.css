@@ -263,13 +263,14 @@ footer a:hover {
 
 .last-footer {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    text-align: center;
 
 }
 
 .company-segment {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
     text-align: center;
 }
 

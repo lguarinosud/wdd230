@@ -144,7 +144,7 @@
 
     .last-footer {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(4, auto);
 
     }
 
