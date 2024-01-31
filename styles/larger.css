@@ -13,10 +13,30 @@
         display: flex;
     }
 
+    .hero {
+
+        max-width: 100%;
+        height: auto;
+        display: block;
+        grid-column: 1 / -1;
+    }
+
+    .hero img {
+        width: 100%;
+        /* Ensure the image takes up the full width of its container */
+        height: auto;
+        /* Maintain the image's aspect ratio */
+        display: block;
+        /* Remove any default inline spacing */
+        margin: 0 auto;
+        /* Center the image horizontally */
+    }
+
     main {
         display: grid;
         grid-template-columns: 3fr 2fr;
         grid-template-rows: auto;
+
     }
 
     main h1 {
@@ -42,6 +62,10 @@
 
     footer {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    iframe {
+        padding: 10px;
     }
 
     #menu {

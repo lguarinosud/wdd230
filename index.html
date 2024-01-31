@@ -16,14 +16,14 @@
     <link rel="icon" href="/images/favicon.ico">
     <meta property="og:title" content="Leonardo Guarino - WDD 230 - Web Frontend Development" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lguarinosud.github.io/wdd230/images/york.jpg" />
+    <meta property="og:image" content="https://lguarinosud.github.io/wdd230/images/york.webp" />
     <meta property="og:url" content="https://lguarinosud.github.io/wdd230/" />
 </head>
 
 <body onload="updateCopyrightYear(); updateLastModifiedDate();">
 
     <header>
-        <img src="images/profile.jpg" alt="My Profile Image: Leonardo Guarino">
+        <img src="images/profile.webp" alt="My Profile Image: Leonardo Guarino">
         <span>Leonardo Guarino</span>
         <div id="mode">
             🕶️
@@ -37,7 +37,19 @@
         <a href="#">Site Plan</a>
         <a href="#">Form</a>
     </nav>
+
     <main>
+
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px )" srcset="images/hero-small.webp">
+                <source media="(max-width: 960px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-medium.webp" alt="Temple of Buenos Aires, Argentina" width="1500" height="750">
+            </picture>
+            <div class="herolabel">
+                <p>Buenos Aires Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
 
         <section class="card">
@@ -80,10 +92,18 @@
 
             <p>York, england</p>
             <p>4 degrees C, Cloudy</p>
-            <p>Number of Visits: 500</p>
+            <p class="visits">Number of Visits: 500</p>
 
         </section>
+
+
     </main>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.4517441288376!2d-1.0826744871645146!3d53.9592452723586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931af448a6c85%3A0xf7ead1e3f65531cd!2sShambles%2C%20York%20YO1%207LZ!5e0!3m2!1sen!2suk!4v1706660935706!5m2!1sen!2suk"
+        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
     <footer>
 
         <p id="copyrightYear">&copy; </p>
@@ -94,6 +114,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitcounter.js"></script>
 </body>
 
 </html>
