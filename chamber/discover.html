@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Guarino - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Leonardo Guarino - Web FronEnd Development course.">
+    <meta name="author" content="Leonardo Guarino">
+    <link rel="stylesheet" href="/normalize.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <meta property="og:title" content="Leonardo Guarino - WDD 230 - Web Frontend Development" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lguarinosud.github.io/wdd230/images/york.webp" />
+    <meta property="og:url" content="https://lguarinosud.github.io/wdd230/" />
+</head>
+
+<body onload="updateCopyrightYear(); updateLastModifiedDate();">
+
+    <header>
+        <img src="/images/profile.webp" alt="My Profile Image: Leonardo Guarino">
+        <span>Leonardo Guarino</span>
+        <div id="mode">
+            🕶️
+        </div>
+        <button id="menu"></button>
+
+    </header>
+    <nav id="navi" class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Site Plan</a>
+        <a href="#">Form</a>
+    </nav>
+
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px )" srcset="/images/hero-small.webp">
+                <source media="(max-width: 960px )" srcset="/images/hero-medium.webp">
+                <img src="/images/hero-medium.webp" alt="Temple of Buenos Aires, Argentina" width="1500" height="750">
+            </picture>
+            <div class="herolabel">
+                <p>Buenos Aires Temple</p>
+            </div>
+        </div>
+        <h1>WDD 230: Web Frontend Development</h1>
+
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+
+                <li>Week 1:</li>
+                <li><a href="#">Activity 1</a></li>
+                <li><a href="#">Activity 2</a></li>
+                <li><a href="https://lguarinosud.github.io/wdd230/week01/chamber-site-plan.html">York Chamber of
+                        Commerce Site Plan</a></li>
+
+            </ul>
+            <ul>
+                <li>Week 2:</li>
+                <li><a href="https://lguarinosud.github.io/wdd230/week02/design.html">Design Principles</a></li>
+                <li><a href="https://codepen.io/Leonardo-Guarino/pen/zYbzqYo">"Hamburger" Menu</a></li>
+                <li><a href="https://lguarinosud.github.io/wdd230/week02/bom.html">BOM app</a></li>
+            </ul>
+            <ul>
+                <li>Week 3:</li>
+                <li><a href="week03/images/lanscape.webp">WebP</a></li>
+                <li><a href="https://lguarinosud.github.io/wdd230/week03/lazyload.html">LazyLoad site</a></li>
+                <li><a href="https://lguarinosud.github.io/wdd230/week03/responsive-images.html">responsive-images</a>
+                </li>
+            </ul>
+            <ul>
+                <li>Week 4:</li>
+            </ul>
+            <ul>
+                <li>Week 5:</li>
+            </ul>
+            <ul>
+                <li>Week 6:</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Information</h2>
+
+            <p>York, england</p>
+            <p>4 degrees C, Cloudy</p>
+            <p class="visits">Number of Visits: 500</p>
+
+        </section>
+
+
+    </main>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.4517441288376!2d-1.0826744871645146!3d53.9592452723586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931af448a6c85%3A0xf7ead1e3f65531cd!2sShambles%2C%20York%20YO1%207LZ!5e0!3m2!1sen!2suk!4v1706660935706!5m2!1sen!2suk"
+        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <footer>
+
+        <p id="copyrightYear">&copy; </p>
+        <p>Leonardo Guarino</p>
+        <p>Buenos Aires, Argentina </p>
+        <p id="lastModified">lastModified: 10/01/2023, 20:22:13</p>
+    </footer>
+    <script src="/scripts/getDates.js"></script>
+    <script src="/scripts/hamburgerMenu.js"></script>
+    <script src="/scripts/darkMode.js"></script>
+    <script src="/scripts/visitcounter.js"></script>
+</body>
+
+</html>
