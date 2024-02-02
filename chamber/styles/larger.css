@@ -219,11 +219,26 @@
     .sb-img {
         width: 100%;
         height: auto;
+
     }
 
+    .content img {
+        border: 5px solid transparent;
+        /* Initially transparent border */
+        transition: border 0.3s ease-in-out;
 
+    }
 
+    .content img:hover {
+        box-shadow: 0 30px 30px rgba(246, 242, 242, 0.985);
+        border-color: red;
+        /* Highlight color on hover */
+    }
 }
+
+
+
+
 
 
 /* Remaining sections... */
