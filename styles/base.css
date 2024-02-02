@@ -257,9 +257,6 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    /* Align items in a single column */
-
-    /* Center items horizontally */
     padding: 20px;
 }
 
@@ -277,14 +274,9 @@ body {
 .content img {
     width: 100%;
     height: auto;
-    margin: 0;
-    /* Remove any default margin */
+    margin: 5px;
     padding: 0;
-    /* Remove any default padding */
     display: block;
-    /* Ensure the image is a block element */
-    border: 1px solid black;
-    /* Add border if needed */
 }
 
 .york-pass {
