@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Guarino - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Leonardo Guarino - Web FronEnd Development course.">
+    <meta name="author" content="Leonardo Guarino">
+    <link rel="stylesheet" href="/normalize.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/larger.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <meta property="og:title" content="Leonardo Guarino - WDD 230 - Web Frontend Development" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lguarinosud.github.io/wdd230/images/york.webp" />
+    <meta property="og:url" content="https://lguarinosud.github.io/wdd230/" />
+</head>
+
+<body onload="updateCopyrightYear(); updateLastModifiedDate();">
+    <div id="wel-message">
+        <span class="sidebar-content"> placeholder of the welcome message</span>
+    </div>
+    <header>
+        <img src="../images/profile.webp" alt="My Profile Image: Leonardo Guarino">
+        <span>Leonardo Guarino</span>
+        <button id="menu"></button>
+
+
+
+    </header>
+    <nav id="navi" class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Site Plan</a>
+        <a href="#">Form</a>
+    </nav>
+
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <!-- Sidebar content goes here -->
+            <section class="events-weather-container">
+
+                <div class="card">
+                    <h2>Events</h2>
+                    <div class="event">
+                        <h3>Tech Expo 2024</h3>
+                        <p>Date: March 15-17, 2024</p>
+                        <p>Location: Innovation Center, City Tech Plaza</p>
+                        <p>Description: Explore the latest in technology at Tech Expo 2022. Engage with innovative
+                            products, attend workshops, and connect with tech enthusiasts.</p>
+                    </div>
+
+                    <div class="event">
+                        <h3>Summer Jazz Festival</h3>
+                        <p>Date: July 8-10, 2024</p>
+                        <p>Location: Riverside Park Amphitheater</p>
+                        <p>Description: Immerse yourself in the soulful melodies of renowned jazz artists. Bring a
+                            picnic, enjoy the scenic riverside, and experience a weekend filled with jazz tunes.</p>
+                    </div>
+
+                    <div class="event">
+                        <h3> The Bloody Tour of York</h3>
+                        <p>Location: St Williams College, 4-5 College Street, York, YO1 7JF </p>
+                        <img class="sb-img" src="images/Lead_1530115623.webp" alt="The Bloody Tour of York">
+                        <a href="http://www.thebloodytourofyork.co.uk/">Visit the website
+                        </a>
+                    </div>
+
+
+                    <div class="event">
+                        <h3>Yorkshire Marathon</h3>
+                        <p>Date: September 3, 2024</p>
+                        <p>Location: York Sport Village</p>
+                        <img class="sb-img" src="images/yorkshire-marathon.webp" alt="Yorkshire Marathon aniversary">
+                        <a
+                            href="https://endurancecui.active.com/new/events/87642103/forms?_p=7973018504725706?_p=8750440465965388">Sign
+                            up</a>
+                    </div>
+                    <div class="card">
+                        <h2>Demographic Data</h2>
+                        <div class="event">
+                            <p>
+                                <span>Population: 208,200</span><br>
+                                <span>Median Age: 35</span><br>
+                                <span>Avg Income: £30,000</span><br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>Information</h2>
+                        <div class="event">
+                            <p>
+                                <span>York, england </span><br>
+                                <span>4 degrees C, Cloudy </span><br>
+                                <span class="visits"> Number of Visits: 500 </span><br>
+                            </p>
+                        </div>
+
+                        <div class="event">
+                            <div class="york-pass">
+                                <img src="images/logo-yorkpass--updated.png" alt="The Visit York Pass" width="70" />
+                                <button class="sign-up-button" onclick="window.open('https://yorkpass.com/', '_blank')">
+                                    Sign up </button>
+                            </div>
+                            <p>
+                                The Visit York Pass is simple and easy to use. The more you visit, the more you
+                                save!
+                            </p>
+                        </div>
+
+                    </div>
+            </section>
+
+        </aside>
+        <main class="content">
+            <!-- Main content goes here -->
+            <img src="images/york-img/york-5.webp" alt="York photos" loading="lazy" width="400" height="600">
+            <img src="images/york-img/york-6.webp" alt="York photos" loading="lazy" width="400" height="600">
+            <img src="images/york-img/york-2.webp" alt="York photos" loading="lazy" width="600" height="400">
+            <img src="images/york-img/york-3.webp" alt="York photos" loading="lazy" width="600" height="400">
+            <img src="images/york-img/york-4.webp" alt="York photos" loading="lazy" width="600" height="400">
+            <img src="images/york-1.webp" alt="York shambles photos" loading="lazy" width="600" height="400">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.4517441288376!2d-1.0826744871645146!3d53.9592452723586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931af448a6c85%3A0xf7ead1e3f65531cd!2sShambles%2C%20York%20YO1%207LZ!5e0!3m2!1sen!2suk!4v1706660935706!5m2!1sen!2suk"
+                width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </main>
+    </div>
+    <footer>
+
+        <p id="copyrightYear">&copy; </p>
+        <p>Leonardo Guarino</p>
+        <p>Buenos Aires, Argentina </p>
+        <p id="lastModified">lastModified: 10/01/2023, 20:22:13</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script>
+    <script src="../scripts/visitcounter.js"></script>
+    <script src="scripts/lastVisit.js"></script>
+</body>
+
+</html>
