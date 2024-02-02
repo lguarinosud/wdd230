@@ -159,6 +159,28 @@ main h1 {
     text-align: center;
     margin-bottom: 5px;
     margin-top: 0px;
+
+}
+
+.card h3 {
+    background-color: #333;
+    ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.event h2 {
+
+    color: white;
+    padding: 2px;
+    text-align: center;
+    vertical-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
 }
 
 .card ul {
@@ -177,6 +199,20 @@ main h1 {
 
 .card p {
     margin: 5px;
+}
+
+.event {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.event p {
+    color: black;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 iframe {
@@ -198,4 +234,114 @@ footer {
 
 footer p {
     margin: 5px;
+}
+
+/* Side Bar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* Align items in a single column */
+
+    /* Center items horizontally */
+    padding: 20px;
+}
+
+.sidebar h3 span {
+    color: #000;
+}
+
+.sb-img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    /* Remove any default margin */
+    padding: 0;
+    /* Remove any default padding */
+    display: block;
+    /* Ensure the image is a block element */
+    border: 1px solid black;
+    /* Add border if needed */
+}
+
+.york-pass {
+    position: relative;
+    background-color: red;
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sign-up-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    background-color: darkred;
+}
+
+.sign-up-button span {
+
+    margin-bottom: 5px;
+}
+
+#wel-message {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(71, 75, 72, 0.8);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    animation: fadeOut 10s ease-in-out;
+    z-index: 9999;
+    /* to bring it at the front */
+
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
