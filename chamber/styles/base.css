@@ -1,9 +1,16 @@
 /* Header Styles */
+:root {
+    --border-color: #445ba9;
+    --form-background: rgba(0, 0, 0, 0.1);
+    --primary-color: #FF0000;
+    --primary-background: #333333;
+}
+
 header {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #808080;
+    background-color: var(--primary-background);
     /* Primary grey color */
 }
 
@@ -88,8 +95,12 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     /* Text color */
-    background-color: #808080;
+    background-color: var(--primary-background);
     /* Primary color */
+}
+
+article {
+    text-align: center;
 }
 
 /* Call to Action Button Styling */
@@ -159,7 +170,7 @@ body {
 .weather {
     background-color: #FFFFFF;
     /* Light background for the card */
-    color: #333333;
+    color: var(--primary-background);
     /* Darker text color for readability */
     border: 1px solid #DDDDDD;
     /* Subtle border */
@@ -176,7 +187,6 @@ body {
 /* Container for Events and Weather */
 
 
-/* You might want to adjust padding, margin, etc., for inner elements like h2, h3, p in the cards */
 .card h2,
 .card h3,
 .card p,
@@ -201,7 +211,7 @@ body {
 .spotlights {
     background-color: #FFFFFF;
     /* Light background for the card */
-    color: #333333;
+    color: var(--primary-background);
     /* Darker text color for readability */
     border: 1px solid #DDDDDD;
     /* Subtle border */
@@ -231,7 +241,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(2, auto);
-    background-color: #333333;
+    background-color: var(--primary-background);
     /* Dark background for the footer */
     color: #FFFFFF;
     /* Light text color for contrast */
@@ -365,9 +375,8 @@ iframe {
 footer {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #f0f0f0;
+    background-color: var(--primary-background);
     padding: 10px;
-    background-color: #f0f0f0;
     text-align: center;
 }
 
@@ -388,7 +397,7 @@ body {
 }
 
 .sidebar {
-    background-color: #333;
+    background-color: var(--primary-background);
     color: #fff;
     padding: 20px;
 }
@@ -475,4 +484,211 @@ body {
     to {
         opacity: 0;
     }
+}
+
+/* Form styling */
+
+
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: 1fr;
+    /* Two equal columns */
+    gap: 20px;
+    /* Space between columns */
+    padding: 0 2%;
+    min-height: 20rem;
+    text-align: left;
+    background-color: white;
+}
+
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: var(--border-color);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: var(--form-background);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 auto 2rem auto;
+    /* Set left and right margins to "auto" */
+    width: 100%;
+    /* Take up full width */
+    max-width: 20rem;
+    display: block;
+    /* Ensure it's displayed as a block-level element */
+}
+
+.submitBtn {
+    text-align: center;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+footer {
+    background-color: #333333;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#bdescription {
+    width: 100%;
+    height: auto;
+}
+
+form h1 {
+    color: var(--border-color);
+    padding: 30px;
+    text-align: center;
+    vertical-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#membershipBenefits {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form h2 {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: var(--primary-color);
+    ;
+}
+
+#form h3:nth-child(2) {
+    color: #ffd700;
+
+}
+
+#form h3:nth-child(4) {
+    color: #c0c0c0;
+
+}
+
+#form h3:nth-child(6) {
+    color: #cd7f32;
+
+}
+
+#form :nth-child(8) {
+    color: #3498db;
+
+}
+
+
+#benefitsItem {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#benefitsItem li {
+    margin-bottom: 10px;
+    font-size: 16px;
+
+    color: #333;
+
+}
+
+.thankyou-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: 50rem;
+    margin: 0 auto;
+}
+
+.thankyou-title {
+    color: #3498db;
+    /* Blue color for the title */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.thankyou-message {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
 }

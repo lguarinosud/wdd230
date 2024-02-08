@@ -110,7 +110,7 @@
         display: grid;
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(2, auto);
-        background-color: #333333;
+
         /* Dark background for the footer */
         color: #FFFFFF;
         /* Light text color for contrast */
@@ -224,7 +224,6 @@
 
     .content img {
         border: 5px solid transparent;
-        /* Initially transparent border */
         transition: border 0.3s ease-in-out;
 
     }
@@ -232,8 +231,24 @@
     .content img:hover {
         box-shadow: 0 30px 30px rgba(246, 242, 242, 0.985);
         border-color: red;
-        /* Highlight color on hover */
+
     }
+
+    form {
+        max-width: 50rem;
+        width: 100%;
+    }
+
+    #form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        /* Two columns with 60% and 40% width */
+        gap: 20px;
+        /* Space between columns */
+    }
+
+
 }
 
 
