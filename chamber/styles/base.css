@@ -562,12 +562,10 @@ form input.submitBtn {
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 auto 2rem auto;
-    /* Set left and right margins to "auto" */
     width: 100%;
     /* Take up full width */
     max-width: 20rem;
     display: block;
-    /* Ensure it's displayed as a block-level element */
 }
 
 .submitBtn {
@@ -682,7 +680,6 @@ form h1 {
 
 .thankyou-title {
     color: #3498db;
-    /* Blue color for the title */
     font-size: 28px;
     margin-bottom: 10px;
 }

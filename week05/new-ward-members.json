@@ -1,0 +1,55 @@
+{
+    "wardMembers": [
+        {
+            "familyName": "Smith",
+            "moveInDate": "2022-01-15",
+            "numberOfPeople": 4,
+            "visitedByBishopric": true,
+            "familyMembers": [
+                {
+                    "name": "John Smith",
+                    "gender": "Male",
+                    "birthdate": "1990-05-20"
+                },
+                {
+                    "name": "Jane Smith",
+                    "gender": "Female",
+                    "birthdate": "1992-08-10"
+                },
+                {
+                    "name": "Emily Smith",
+                    "gender": "Female",
+                    "birthdate": "2010-03-25"
+                },
+                {
+                    "name": "Michael Smith",
+                    "gender": "Male",
+                    "birthdate": "2015-11-12"
+                }
+            ]
+        },
+        {
+            "familyName": "Johnson",
+            "moveInDate": "2021-07-03",
+            "numberOfPeople": 3,
+            "visitedByBishopric": false,
+            "familyMembers": [
+                {
+                    "name": "David Johnson",
+                    "gender": "Male",
+                    "birthdate": "1985-12-18"
+                },
+                {
+                    "name": "Lisa Johnson",
+                    "gender": "Female",
+                    "birthdate": "1988-04-30"
+                },
+                {
+                    "name": "Sophie Johnson",
+                    "gender": "Female",
+                    "birthdate": "2017-09-08"
+                }
+            ]
+        }
+    ]
+}

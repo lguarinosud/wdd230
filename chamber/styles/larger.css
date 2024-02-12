@@ -243,18 +243,8 @@
         width: 100%;
         display: grid;
         grid-template-columns: 60% 40%;
-        /* Two columns with 60% and 40% width */
         gap: 20px;
-        /* Space between columns */
     }
 
 
 }
-
-
-
-
-
-
-/* Remaining sections... */
-/* You can continue with the previous CSS for the main content, sections, and footer. */

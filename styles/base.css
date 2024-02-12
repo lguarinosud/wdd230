@@ -324,7 +324,6 @@ body {
     display: none;
     animation: fadeOut 10s ease-in-out;
     z-index: 9999;
-    /* to bring it at the front */
 
 }
 
