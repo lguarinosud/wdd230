@@ -2,7 +2,7 @@
 
 const baseURL = "https://lguarinosud.github.io/wdd230/";
 
-const linksURL = "https://lguarinosud.github.io/wdd230/data/links.js";
+const linksURL = "https://lguarinosud.github.io/wdd230/data/links.json";
 
 const linksURL1 = "http://127.0.0.1:5500/data/links.json";
 
