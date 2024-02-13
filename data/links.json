@@ -1,0 +1,80 @@
+{
+    "weeks": [
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Leonardo-Guarino/pen/zYbzqYo",
+                    "title": "\"Hamburger\" Menu"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week02/bom.html",
+                    "title": "BOM app"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/lanscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week03/lazyload.html",
+                    "title": "LazyLoad site"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week03/responsive-images.html",
+                    "title": "responsive-images"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week03/bom.html",
+                    "title": "BOM app"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Leonardo-Guarino/pen/QWorGgd",
+                    "title": "CSS Pseudo-Classes"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week04/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/form.html",
+                    "title": "Forms"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/chamber/join.html",
+                    "title": "Chamber Sign-up"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/blazzard-jason/pen/LYjLRqN",
+                    "title": "CSS Pseudo-Elements"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week05/prophets.html",
+                    "title": "Fetch()"
+                },
+                {
+                    "url": "https://lguarinosud.github.io/wdd230/week05/weather.html",
+                    "title": "Weather"
+                }
+            ]
+        }
+    ]
+}

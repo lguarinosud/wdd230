@@ -327,6 +327,33 @@ body {
 
 }
 
+.weather {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    /* Horizontally center the grid */
+    gap: 5px;
+    text-align: center;
+    /* Center the content within each item */
+}
+
+#current-temp,
+#weather-icon {
+    margin: auto;
+}
+
+#weather-icon {
+    background-color: white;
+}
+
+figcaption {
+    margin: auto;
+}
+
+.weather p {
+    margin: 5px;
+}
+
 @keyframes fadeOut {
     from {
         opacity: 1;
