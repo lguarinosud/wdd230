@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Halfords Autocentre York ",
+            "address": "53-57 Layerthorpe, Heworth, York YO31 7UZ",
+            "phone": "+44 113 123 4567",
+            "website": "https://www.halfords.com",
+            "image": "halfords.png",
+            "membership_level": "Gold",
+            "additional_info": "Leading provider of innovative technology solutions in Yorkshire."
+        },
+        {
+            "name": "Cynergi IT Consulting",
+            "address": "York Science Park, THE CATALYST, Baird Ln, York YO10 5GA",
+            "phone": "+44 114 987 6543",
+            "website": "https://www.cynergi.pro",
+            "image": "cynergi.png",
+            "membership_level": "Silver",
+            "additional_info": "Leading provider of innovative technology solutions in Yorkshire."
+        },
+        {
+            "name": "York Property Shop",
+            "address": "York Hub Popes Head Court Offices, Peter Ln, York YO1 8SU",
+            "phone": "+44 1274 567 890",
+            "website": "http://www.yorkpropertyshop.co.uk",
+            "image": "yorkpropertyshop.png",
+            "membership_level": "Bronze",
+            "additional_info": "Providing high-quality real state services locally in Yorkshire."
+        },
+        {
+            "name": "Franks Accountants Limited",
+            "address": "Blake House, 18 Blake St, York YO1 8QG",
+            "phone": "+44 1482 345 678",
+            "website": "https://www.franksaccountants.co.uk/",
+            "image": "franks-accountants-logo-retina.png",
+            "membership_level": "Platinum",
+            "additional_info": "Experts in financial consulting services for businesses in Yorkshire."
+        },
+        {
+            "name": "Sorrell (York) Ltd",
+            "address": "Little Hallfield Rd, Tang Hall, York YO31 7XP",
+            "phone": "+44 1924 234 567",
+            "website": "http://www.yorkshirebuilders.com",
+            "image": "Sorrell Building Contractors.png",
+            "membership_level": "Gold",
+            "additional_info": "Leading construction company providing quality building solutions."
+        },
+        {
+            "name": "PCMIS Health Technologies Ltd",
+            "address": "Innovation Centre, Innovation Way University of, York YO10 5DG",
+            "phone": "+44 1423 876 543",
+            "website": "https://www.pcmis.com",
+            "image": "pcmis.png",
+            "membership_level": "Silver",
+            "additional_info": "Pioneering innovations in healthcare technology for a healthier Yorkshire."
+        },
+        {
+            "name": "The Works Ltd",
+            "address": "5/6 Church St, York YO1 8BG",
+            "phone": "+44 1904 654 321",
+            "website": "https://www.theworks.co.uk/",
+            "image": "theworks.png",
+            "membership_level": "Bronze",
+            "additional_info": "Get everything you need for your handcrafted projects. "
+        }
+    ]
+}

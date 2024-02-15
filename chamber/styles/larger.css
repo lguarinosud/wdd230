@@ -160,8 +160,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-
-        /* This ensures the div takes up the full height of the viewport */
     }
 
 
@@ -245,6 +243,88 @@
         grid-template-columns: 60% 40%;
         gap: 20px;
     }
+
+    .dic-grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        background-color: var(--primary-background);
+        color: black;
+    }
+
+    .directory-menu-toggle {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .directory-menu-toggle button {
+        padding: 1rem;
+        font-weight: 700;
+
+    }
+
+    .directory-menu-toggle button:hover {
+        cursor: pointer;
+    }
+
+    /* Directory styling type List */
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    thead {
+        background-color: #333;
+        color: #fff;
+        display: contents;
+    }
+
+    tr {
+        display: table-row;
+        /* Resetting to default table-row display */
+        flex-direction: initial;
+        /* Resetting flex direction */
+        align-items: initial;
+        /* Resetting align items */
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #555;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        /* Zebra striping for even rows */
+    }
+
+    tr:nth-child(odd) {
+        background-color: #e0e0e0;
+        /* Zebra striping for odd rows */
+    }
+
+    td {
+        border: 1px solid #ddd;
+        color: #000;
+    }
+
+    .corner {
+        background-color: black;
+    }
+
+
 
 
 }
