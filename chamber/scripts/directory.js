@@ -7,16 +7,6 @@ const linksURL1 = "http://127.0.0.1:5500/chamber/data/members.json";
 
 let directoryData;
 
-// function getCards() {
-//     return fetch(linksURL1)
-//         .then(response => response.json())
-//         .then(data => {
-//             console.log(data);
-//             displayCards(data);
-//             directoryData = data; // store the data in the variable
-//         });
-// }
-
 
 
 async function getCards() {
@@ -190,8 +180,6 @@ async function viewToggler() {
             console.log("toggled to list view")
     });
 }
-
-
 
 getCards();
 viewToggler();
