@@ -166,22 +166,14 @@ article {
 
 /* Styles for Events Card */
 /* Common Styles for Both Card and Weather */
-.card,
-.weather {
+.card {
     background-color: #FFFFFF;
-    /* Light background for the card */
     color: var(--primary-background);
-    /* Darker text color for readability */
     border: 1px solid #DDDDDD;
-    /* Subtle border */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Soft shadow for depth */
     padding: 20px;
-    /* Spacing inside the card */
     border-radius: 10px;
-    /* Rounded corners */
     margin: 10px 0;
-    /* Margin for spacing around each card */
 }
 
 /* Container for Events and Weather */
@@ -189,11 +181,40 @@ article {
 
 .card h2,
 .card h3,
-.card p,
-.weather h2,
-.weather p {
+.card p {
     margin: 10px 0;
     /* Example margin, adjust as needed */
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    /* Horizontally center the grid */
+    gap: 5px;
+    text-align: center;
+}
+
+#current-temp,
+#weather-icon {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 69px;
+}
+
+#weather-icon {
+    background-color: white;
+}
+
+figcaption {
+    margin: auto;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.weather p {
+    margin: 5px;
 }
 
 /* Container for Spotlights */
