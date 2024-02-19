@@ -74,6 +74,16 @@
         /* Example margin, adjust as needed */
     }
 
+    .weather h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: auto;
+        text-align: center;
+        margin: 5px;
+    }
+
 
 
     /* Styles for Each Spotlight Card */

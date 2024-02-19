@@ -188,22 +188,36 @@ article {
 
 .weather {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: center;
+    grid-template-columns: repeat(4, auto);
+
     /* Horizontally center the grid */
     gap: 5px;
     text-align: center;
+}
+
+
+
+
+.weather h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    background-color: #FFFFFF;
 }
 
 #current-temp,
 #weather-icon {
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 69px;
+    font-size: 35px;
 }
 
 #weather-icon {
-    background-color: white;
+    background-color: FFFFFF;
 }
 
 figcaption {
@@ -220,7 +234,7 @@ figcaption {
 /* Container for Spotlights */
 .spotlights-container {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     /* Three equal columns */
     gap: 20px;
     /* Space between columns */
