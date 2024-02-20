@@ -202,7 +202,7 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: 10px;
     height: auto;
     text-align: center;
     margin: 0;
@@ -234,7 +234,7 @@ figcaption {
 /* Container for Spotlights */
 .spotlights-container {
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: auto;
     /* Three equal columns */
     gap: 20px;
     /* Space between columns */

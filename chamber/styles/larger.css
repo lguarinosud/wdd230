@@ -84,6 +84,12 @@
         margin: 5px;
     }
 
+    .spotlights-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        /* Two equal columns */
+        gap: 20px;
+    }
+
 
 
     /* Styles for Each Spotlight Card */
