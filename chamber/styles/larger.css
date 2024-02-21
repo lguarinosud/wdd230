@@ -48,7 +48,7 @@
     /* Container for Events and Weather */
     .events-weather-container {
 
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 40% 60%;
         /* Two equal columns */
         gap: 20px;
         /* Space between columns */
