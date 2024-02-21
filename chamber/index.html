@@ -31,11 +31,18 @@
 
 
     <nav id="navi" class="navigation">
-        <a href="#">Home</a>
-        <a href="#">Events</a>
-        <a href="#">Membership</a>
+        <a href="https://lguarinosud.github.io/wdd230/chamber/index.html">Home</a>
+        <a href="https://lguarinosud.github.io/wdd230/chamber/directory.html">Directory</a>
+        <a href="https://lguarinosud.github.io/wdd230/chamber/join.html">Sign up</a>
     </nav>
     <main>
+        <div id="banner" class="hidden">
+            <p>
+                Join us at the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.
+                <span id="closeBanner" onclick="closeBanner()">❌</span>
+            </p>
+        </div>
+
         <section>
             <div class="image-container ">
                 <img src="images/york-8.jpg" alt="City of York">
@@ -71,8 +78,21 @@
             </div> -->
         </section>
 
+        <div id="spot-title">
+            <h2>Take a look at some of our Gold and Silver members!</h2>
+        </div>
         <section class="spotlights-container">
-            <div class="spotlights">
+            <!-- <div id="spot-1" class="spotlights">
+                <h2>Brand Title</h2>
+                <p>Slogan placeholder</p>
+                <div>
+                    <p>Name: <span itemprop="name">Your Name</span></p>
+                    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+                    <p>Phone: <span itemprop="telephone">123-456-7890</span></p>
+                    <p>Address: <span itemprop="address">123 Street, City, Country</span></p>
+                </div>
+            </div>
+            <div id="spot-1" class="spotlights">
                 <h2>Brand Title</h2>
                 <p>Slogan placeholder</p>
                 <div>
@@ -91,17 +111,7 @@
                     <p>Phone: <span itemprop="telephone">123-456-7890</span></p>
                     <p>Address: <span itemprop="address">123 Street, City, Country</span></p>
                 </div>
-            </div>
-            <div class="spotlights">
-                <h2>Brand Title</h2>
-                <p>Slogan placeholder</p>
-                <div>
-                    <p>Name: <span itemprop="name">Your Name</span></p>
-                    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-                    <p>Phone: <span itemprop="telephone">123-456-7890</span></p>
-                    <p>Address: <span itemprop="address">123 Street, City, Country</span></p>
-                </div>
-            </div>
+            </div> -->
         </section>
 
     </main>
@@ -135,6 +145,8 @@
     <script src="scripts/hamburguerMenu.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlights.js"></script>
+    <script src="scripts/banner.js"></script>
 
 
 </body>
