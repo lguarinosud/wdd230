@@ -879,3 +879,28 @@ td {
 #closeBanner {
     cursor: pointer;
 }
+
+#disc-weather {
+    display: grid;
+    grid-template-rows: repeat(1fr 1fr);
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+
+#current-temp,
+#weather-icon {
+    margin: auto;
+}
+
+#weather-icon {
+    background-color: white;
+}
+
+figcaption {
+    margin: auto;
+}
+
+#disc-weather p {
+    margin: 5px;
+}
